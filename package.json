@@ -1,0 +1,22 @@
+{
+  "name": "gtfs-tiler",
+  "version": "0.0.1",
+  "description": "Transit map tiler",
+  "main": "generate.js",
+  "scripts": {
+    "generate": "node lib/generate.js",
+    "blanks": "node lib/blanks.js",
+    "demo": "budo demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Conveyal",
+  "license": "MIT",
+  "dependencies": {
+    "budo": "^9.4.7",
+    "canvas-prebuilt": "^1.6.0",
+    "globalmercator": "^0.2.3",
+    "isomorphic-fetch": "^2.2.1",
+    "leaflet": "^1.0.3",
+    "node-fs-extra": "^0.8.1"
+  }
+}

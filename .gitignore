@@ -1,0 +1,5 @@
+node_modules
+cache
+tiles
+config.js
+.DS_Store
