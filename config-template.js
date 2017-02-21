@@ -7,7 +7,7 @@ module.exports = {
 
   /* The GTFS API endpoint to query. */
   api: {
-    gtfs: 'http://your-gtfs-api-endpoint'
+    gtfs: 'https://localhost:9966/api/manager/graphql'
   },
 
   /* The directory where the rendered tiles will be written */
