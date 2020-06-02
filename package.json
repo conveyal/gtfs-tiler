@@ -4,7 +4,7 @@
   "description": "Transit map tiler",
   "main": "generate.js",
   "scripts": {
-    "generate": "node lib/generate.js",
+    "generate": "node -max-old-space-size=8192 lib/generate.js",
     "blanks": "node lib/blanks.js",
     "demo": "budo demo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
