@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "budo": "^9.4.7",
-    "canvas-prebuilt": "^1.6.0",
+    "canvas-prebuilt": "^1.6.5",
     "globalmercator": "^0.2.3",
     "isomorphic-fetch": "^2.2.1",
     "leaflet": "^1.0.3",
